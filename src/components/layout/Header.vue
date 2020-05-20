@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <h1>TodoList</h1>
+        <h1>Zadaci</h1>
     </header>
 </template>
 
@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 .header {
-    background: #333;
+    background: rgb(117, 117, 117);
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -20,5 +20,8 @@ export default {
 .header a {
     color: #fff;
     padding-right: 5px;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 </style>

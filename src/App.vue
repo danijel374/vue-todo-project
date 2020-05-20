@@ -25,7 +25,17 @@ export default {
        {
           completed:false,
           id:"1",
-          title:"Ustao"
+          title:"Napisati diplomski rad"
+       },
+        {
+          completed:false,
+          id:"2",
+          title:"Ispraviti diplomski rad"
+       },
+       {
+          completed:false,
+          id:"3",
+          title:"Obraniti diplomski rad"
        }
       ]
     }
@@ -54,12 +64,12 @@ body {
 .btn {
   display: inline-block;
   border: none;
-  background: #555;
+  background: rgb(19, 18, 31);
   color: #fff;
   padding: 7px 20px;
   cursor: pointer;
 }
 .btn:hover {
-  background: #666;
+  background: rgb(0, 0, 0);
 }
 </style>
